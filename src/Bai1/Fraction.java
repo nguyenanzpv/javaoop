@@ -106,25 +106,25 @@ public class Fraction{
         f2.tuSo=5;
         f2.mauSo=8;
 
-        System.out.println("reduce fraction");
+        System.out.println("reduce ps");
         System.out.println(printFraction(reduce(f1)));
 
-        System.out.println("reciprocal fraction");
+        System.out.println("reciprocal ps");
         System.out.println(printFraction(reciprocal(f1)));
 
-        System.out.println("add fraction");
+        System.out.println("add ps");
         System.out.println(printFraction(add(f1,f2)));
 
-        System.out.println("subtract fraction");
+        System.out.println("subtract ps");
         System.out.println(printFraction(subtract(f1,f2)));
 
-        System.out.println("multiply fraction");
+        System.out.println("multiply ps");
         System.out.println(printFraction(multiply(f1,f2)));
 
-        System.out.println("divide fraction");
+        System.out.println("divide ps");
         System.out.println(printFraction(divide(f1,f2)));
 
-        System.out.println("tolerance fraction");
+        System.out.println("tolerance ps");
         tolerance(f1,f2);
 
 
